@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    width: 300px;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.error {
+    color: red;
+}
